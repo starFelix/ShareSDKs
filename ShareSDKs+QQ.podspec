@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.frameworks          = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
   s.libraries           = 'iconv', 'sqlite3', 'stdc++', 'z'
   s.vendored_frameworks = "QQ/TencentOpenAPI.framework"
-  s.source_files        = 'QQ/TencentOpenAPI.framework/Headers/**/*.h'
+  s.source_files        = 'QQ/*.{h}'
 
 end
